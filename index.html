@@ -3,12 +3,17 @@
 
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>HTML Academy: Седона</title>
   </head>
 
   <body>
+
+    <!--Шапка-->
     <header class="page-header">
-      <a class="navigation-link"><img src="images/logo-city-of-sedona.svg" class="logo" alt="Логотип 'Седона" width="140" height="70.05"></a>
+      <a class="navigation-link"><img src="images/logo-city-of-sedona.svg" class="logo" alt="Логотип 'Седона"
+          width="140" height="70.05"></a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -40,28 +45,38 @@
       </nav>
     </header>
 
+    <!--Основная страница-->
     <main class="main-index">
       <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
       <div class="main-background">
-        <!--картинки добавим стилями-->
+        <div class="welcome">
+          <div class="divider">
+
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="main-advantages-title">Седона — небольшой городок в Аризоне, <br>
+          заслуживающий большего!</p>
+        <p class="main-welcome-advantages">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </div>
       <section class="main-advantages">
         <h2 class="visually-hidden">Преимущества Седоны</h2>
-        <b class="main-advantages-title">Седона — небольшой городок в Аризоне,
-          заслуживающий большего!</b>
-        <p class="main-welcome-advantages">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="main-advantages-list">
           <li class="main-advantages-item">
-            <b class="main-advantages-head">Настоящий городок</b>
-            <p class="main-advantages-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="images/advantages-photo-1.jpg" class="main-advantages-image" alt="Вид городка Седона" width="800" height="348">
+            <div class="true-town blue">
+              <b class="main-advantages-head">Настоящий городок</b>
+              <p class="main-advantages-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              <!-- <img src="images/advantages-photo-1.jpg" class="main-advantages-image" alt="Вид городка Седона"
+                width="800" height="348"> -->
+            </div>
             <ul class="advantages-cards">
               <li class="advantages-cards-item">
                 <b class="advantages-cards-head">Небольшая
                   площадь</b>
                 <p class="advantages-cards-text">Все достопримечательности находятся очень близко</p>
               </li>
-              <li class="advantages-cards-item coloured-card">
+              <li class="advantages-cards-item light-blue-bgnd">
                 <b class="advantages-cards-head">Красивая
                   дорога</b>
                 <p class="advantages-cards-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
@@ -74,12 +89,15 @@
             </ul>
           </li>
           <li class="main-advantages-item">
-            <b class="main-advantages-head">Там есть
-              мост дьявола</b>
-            <p class="main-advantages-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img src="images/advantages-photo-2.jpg" class="main-advantages-image" alt="Достопримечательность Мост Дьявола" width="800" height="384">
+            <div class="devil-bridge blue">
+              <b class="main-advantages-head">Там есть
+                мост дьявола</b>
+              <p class="main-advantages-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              <!-- <img src="images/advantages-photo-2.jpg" class="main-advantages-image"
+                alt="Достопримечательность Мост Дьявола" width="800" height="384"> -->
+            </div>
             <ul class="main-premises-list">
-              <li class="main-premises-item">
+              <li class="main-premises-item light-blue-bgnd">
                 <b class="main-premises-title">Жильё</b>
                 <p class="main-premises-advantages">Рекомендуем пожить в настоящем мотеле,
                   всё как в кино!</p>
@@ -89,7 +107,7 @@
                 <p class="main-premises-advantages">Всегда заказывайте
                   топовый фирменный бургер, вы не разочаруетесь!</p>
               </li>
-              <li class="main-premises-item">
+              <li class="main-premises-item light-blue-bgnd">
                 <b class="main-premises-title">Сувениры</b>
                 <p class="main-premises-advantages">Не только китайского,
                   но и настоящего местного производства!</p>
@@ -117,6 +135,8 @@
         </form>
       </div>
     </main>
+
+    <!-- Футер -->
     <footer class="page-footer">
       <section class="footer-social-networks">
         <h2 class="visually-hidden">Мы в соцсетях</h2>
