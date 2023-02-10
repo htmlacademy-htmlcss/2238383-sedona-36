@@ -16,11 +16,25 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 21px;
   background-color: #ffffff;
+}
+
+.main-container {
+  flex-grow: 1;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .catalog-title {
@@ -30,8 +44,30 @@ body {
 }
 
 .navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
   font-size: 20px;
   line-height: 24px;
+}
+
+.page-logo {
+  width: 140px;
+
+}
+
+.navigation-list {
+  width: 399px;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+}
+
+.navigation-item {
+  width: 268px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
 }
 
 .catalog-filter {
@@ -104,6 +140,23 @@ body {
   background-repeat: no-repeat;
 }
 
+.main-advantages-list {
+  margin: 0;
+  padding: 0;
+}
+
+.main-premises-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-cards {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 .main-advantages-title,
 .main-booking-title {
   font-weight: 700;
@@ -160,6 +213,51 @@ body {
   background-repeat: no-repeat;
 }
 
+.subscribe,
+.catalog-subscribe {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+}
+
+.hotel-filter {
+  width: 1200px;
+  display: flex;
+}
+
+.hotel-filter-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.sorting {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.catalog-hotels-list {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+
+}
+
+.hotel-card {
+  width: 300px;
+
+  padding: 20px;
+}
+
 .hotel-card-title {
   font-weight: 700;
   font-size: 24px;
@@ -205,6 +303,13 @@ body {
   color: #333333;
   background: #F2F2F2;
   border-radius: 4px;
+}
+
+.pagination {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  justify-content: flex-start;
 }
 
 .pagination-item {
@@ -265,4 +370,27 @@ body {
 .subscribe-title {
   font-size: 30px;
   line-height: 36px;
+}
+
+.page-footer {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer-social-networks {
+  max-width: 140px;
+  padding-left: 70px;
+  margin-right: auto;
+}
+
+.footer-contacts {
+
+}
+
+.footer-web-site {
+  max-width: 115px;
+  padding-right: 70px;
+  margin-left: auto;
 }
