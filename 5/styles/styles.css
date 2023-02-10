@@ -1,0 +1,396 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  color: #333333;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  color: #333333;
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #ffffff;
+}
+
+.main-container {
+  flex-grow: 1;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.catalog-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.page-logo {
+  width: 140px;
+
+}
+
+.navigation-list {
+  width: 399px;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+}
+
+.navigation-item {
+  width: 268px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+.catalog-filter {
+  color: #FFFFFF;
+  background-image: url("../images/catalog-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #43676f;
+}
+
+.catalog-breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title,
+.catalog-value-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.catalog-button-submit,
+.catalog-button-reset {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.catalog-button-submit {
+  background: #82B3D3;
+  border-radius: 4px;
+}
+
+.catalog-sorting-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.select-control {
+  color: #333333;
+}
+
+.main-background {
+  width: 1200px;
+  height: 485px;
+  background-image: url("../images/index-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1200px, 485px;
+
+}
+
+.welcome {
+  width: 1200px;
+  height: 485px;
+  background-image: url("../images/welcome.png");
+  background-position: center 51px;
+  background-repeat: no-repeat;
+}
+
+.divider {
+  width: 1200px;
+  height: 485px;
+  background-image: url("../images/divider.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.main-advantages-list {
+  margin: 0;
+  padding: 0;
+}
+
+.main-premises-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-cards {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-advantages-title,
+.main-booking-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.main-welcome-advantages,
+.main-booking-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.blue {
+  color: #ffffff;
+}
+
+.light-blue-bgnd {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.main-advantages-head,
+.advantages-cards-head,
+.main-premises-title {
+  width: 400px;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+
+.main-advantages-text {
+  width: 400px;
+}
+
+.true-town {
+  width: 1200px;
+  height: 384px;
+  background-color: #82B3D3;
+  background-image: url("../images/advantages-photo-1.jpg");
+  background-size: 800px 384px;
+  background-position: 400px;
+  background-repeat: no-repeat;
+}
+
+.devil-bridge {
+  width: 1200px;
+  height: 384px;
+  background-color: #82B3D3;
+  background-image: url("../images/advantages-photo-2.jpg");
+  background-size: 800px 384px;
+  background-position: 0px;
+  background-repeat: no-repeat;
+}
+
+.subscribe,
+.catalog-subscribe {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+}
+
+.hotel-filter {
+  width: 1200px;
+  display: flex;
+}
+
+.hotel-filter-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.sorting {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.catalog-hotels-list {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+
+}
+
+.hotel-card {
+  width: 300px;
+
+  padding: 20px;
+}
+
+.hotel-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hotel-card-more {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #756157;
+  border-radius: 4px;
+}
+
+.hotel-card-to-favorites {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #82B3D3;
+  border-radius: 4px;
+}
+
+.hotel-card-in-favorites {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #7DB54F;
+  border-radius: 4px;
+}
+
+.rating {
+  width: 140px;
+  height: 37px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333333;
+  background: #F2F2F2;
+  border-radius: 4px;
+}
+
+.pagination {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.pagination-item {
+  width: 60px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background: #82B3D3;
+  border-radius: 4px;
+}
+
+.pagination-current {
+  color: #000000;
+  background: #F2F2F2;
+  border-radius: 4px;
+}
+
+.subscribe {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 26px;
+  width: 1200px;
+  height: 414.86px;
+  background-image: url("../images/subscribe-background-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1200px, 414.86px;
+}
+
+.subscribe-title,
+.catalog-subscribe-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.catalog-subscribe {
+  color: #000000;
+  font-size: 22px;
+  line-height: 26px;
+  width: 1200px;
+  height: 414.86px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1200px, 414.86px;
+}
+
+
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.page-footer {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer-social-networks {
+  max-width: 140px;
+  padding-left: 70px;
+  margin-right: auto;
+}
+
+.footer-contacts {
+
+}
+
+.footer-web-site {
+  max-width: 115px;
+  padding-right: 70px;
+  margin-left: auto;
+}
