@@ -31,6 +31,17 @@ body {
   background-color: #ffffff;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .main-container {
   flex-grow: 1;
   width: 1200px;
@@ -47,27 +58,50 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  padding: 0;
   font-size: 20px;
   line-height: 24px;
 }
 
 .page-logo {
   width: 140px;
-
-}
+  margin: 0;
+  margin-left: 70px;
+  margin-right: 44px;
+  padding: 0;
+  }
 
 .navigation-list {
+  display: flex;
   width: 399px;
   margin: 0;
   padding: 0;
   margin-right: auto;
+  list-style-type: none;
 }
 
 .navigation-item {
-  width: 268px;
-  margin: 0;
-  padding: 0;
+   width: 268px;
+  margin-right: 32px;
+  padding: 20px 0;
   margin-left: auto;
+}
+
+.navigation-user {
+  margin-left: auto;
+  margin-right: 70px;
+}
+
+.text-under-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 69px;
+  margin-bottom: 69px;
+}
+
+.main-advantages-title {
+text-align: center;
 }
 
 .catalog-filter {
@@ -143,6 +177,7 @@ body {
 .main-advantages-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .main-premises-list {
@@ -155,6 +190,23 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+}
+
+.advantages-cards-item {
+  display: flex;
+  width: 400px;
+  height: 385px;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.main-premises-item {
+  display: flex;
+  width: 400px;
+  height: 385px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-advantages-title,
@@ -209,18 +261,39 @@ body {
   background-color: #82B3D3;
   background-image: url("../images/advantages-photo-2.jpg");
   background-size: 800px 384px;
-  background-position: 0px;
+  background-position: 0;
   background-repeat: no-repeat;
 }
 
-.subscribe,
-.catalog-subscribe {
+.devil-bridge-text {
+  width: 400px;
+  margin-left: auto;
+}
+
+.text-under-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 69px;
+  margin-bottom: 69px;
+}
+
+.main-booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 69px;
+  margin-bottom: 69px;
+}
+
+.subscribe, .catalog-subscribe {
   display: flex;
   flex-direction: column;
   width: 1200px;
   margin: 0 auto;
   padding: 0;
   align-items: center;
+  justify-content: center;
 }
 
 .hotel-filter {
@@ -376,7 +449,13 @@ body {
   width: 1200px;
   display: flex;
   margin: 0 auto;
-  padding: 0;
+  padding: 45px;
+}
+
+.footer-social-list {
+  display: flex;
+  list-style-type: none;
+
 }
 
 .footer-social-networks {
@@ -385,9 +464,12 @@ body {
   margin-right: auto;
 }
 
-.footer-contacts {
-
+.footer-social-item {
+  display: block;
+  width: 48px;
+  
 }
+
 
 .footer-web-site {
   max-width: 115px;
